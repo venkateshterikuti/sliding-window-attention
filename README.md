@@ -13,7 +13,7 @@ This project implements sliding-window (local) attention in pure PyTorch and con
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-pytest
+python -m pytest
 ```
 (Use `python` instead of `python3` on Windows.)
 
